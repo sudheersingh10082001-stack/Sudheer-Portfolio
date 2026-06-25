@@ -1,0 +1,11 @@
+
+body{margin:0;background:#0c0c0c;color:#fff;font-family:Arial,sans-serif}
+nav{display:flex;justify-content:space-between;padding:20px 8%;background:#111;position:sticky;top:0}
+a{color:#fff;text-decoration:none}
+.hero{height:100vh;background:#151515;display:flex;align-items:center;justify-content:center;text-align:center}
+.hero h1{font-size:4rem}
+section{padding:80px 8%}
+.btn{background:#fff;color:#000;padding:12px 20px;border-radius:6px;display:inline-block}
+.stats{display:flex;gap:20px;flex-wrap:wrap}
+.stats div,.card,.placeholder{background:#1a1a1a;padding:20px;border-radius:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
